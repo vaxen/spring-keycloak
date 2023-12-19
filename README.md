@@ -19,3 +19,4 @@ http://localhost:8080/realms/SPRING-KEYCLOAK/.well-known/openid-configuration
 * docker compose
 * add keycloak to docker compose
 * pre fetch keycloak users
+* export roles
