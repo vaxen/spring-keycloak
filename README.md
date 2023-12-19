@@ -16,3 +16,6 @@ http://localhost:8080/realms/SPRING-KEYCLOAK/.well-known/openid-configuration
 * protect api with admin role
 * protect api with user role
 * generate jwt token and add fields
+* docker compose
+* add keycloak to docker compose
+* pre fetch keycloak users
