@@ -8,7 +8,7 @@ run keycloak
 
 
 access jwt endpoint:
-http://localhost:8080/realms/SPRING-KEYCLOAK/.well-known/openid-configuration
+http://localhost:8080/realms/spring-keycloak/.well-known/openid-configuration
 
 
 * endpoint to create users
