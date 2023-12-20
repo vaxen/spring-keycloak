@@ -13,3 +13,7 @@ jwt:
     converter:
       resource-id: spring-keycloak-api
       principle-attribute: preferred_username
+
+admin:
+  username: vaxen
+  password: admin

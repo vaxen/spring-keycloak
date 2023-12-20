@@ -22,6 +22,8 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 
         http.authorizeHttpRequests((authorize) -> authorize
+                        //TODO: add more specific rules
+                        //.requestMatchers("/api/v1/user/**")
                         .anyRequest().authenticated()
                 )
                 .sessionManagement(session -> session.sessionCreationPolicy(STATELESS))
@@ -33,10 +35,4 @@ public class SecurityConfig {
 
         return http.build();
     }
-
-    /*@Bean
-    public JwtDecoder jwtDecoder() {
-        return JwtDecoders.fromIssuerLocation("http://localhost:8080/auth/realms/spring-keycloak");
-    }*/
-
 }
