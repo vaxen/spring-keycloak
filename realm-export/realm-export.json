@@ -29,8 +29,8 @@
   "oauth2DevicePollingInterval": 5,
   "enabled": true,
   "sslRequired": "external",
-  "registrationAllowed": false,
-  "registrationEmailAsUsername": false,
+  "registrationAllowed": true,
+  "registrationEmailAsUsername": true,
   "rememberMe": false,
   "verifyEmail": false,
   "loginWithEmailAllowed": true,
@@ -54,13 +54,11 @@
         "composite": true,
         "composites": {
           "realm": [
-            "offline_access",
-            "uma_authorization"
+            "user"
           ],
           "client": {
-            "account": [
-              "view-profile",
-              "manage-account"
+            "spring-keycloak-api": [
+              "spring_keycloak_user"
             ]
           }
         },
