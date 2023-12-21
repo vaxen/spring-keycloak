@@ -1,8 +1,8 @@
 package com.vaxen.springkeycloak.client;
 
+import lombok.Builder;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
-import lombok.Builder;
 
 import java.io.Serializable;
 
