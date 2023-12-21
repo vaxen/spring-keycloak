@@ -1,4 +1,4 @@
-package com.vaxen.springkeycloak;
+package com.vaxen.springkeycloak.controller;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
