@@ -1,0 +1,4 @@
+keycloak:
+  host: http://localhost:8080
+  realm: dummy-realm
+  client-id: dummy-realm-api

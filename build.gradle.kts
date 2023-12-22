@@ -26,11 +26,15 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-oauth2-resource-server")
 	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.junit.jupiter:junit-jupiter:5.8.1")
 	compileOnly("org.projectlombok:lombok")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	annotationProcessor("org.projectlombok:lombok")
+	implementation("org.keycloak:keycloak-admin-client:23.0.3")
+	testImplementation("org.assertj:assertj-core:3.24.2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.security:spring-security-test")
+	testImplementation("org.assertj:assertj-core:3.24.2")
 }
 
 tasks.withType<Test> {
