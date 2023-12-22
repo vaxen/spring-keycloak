@@ -35,6 +35,7 @@ public class UserService {
         user.setEmailVerified(true);
         user.setEmail(request.getEmail());
         user.setEnabled(true);
+        //convert to optional?
         Response response = keycloakAdminClient.realm(keycloakRealm).users().create(user);
         return new ResponseEntity(response.getStatusInfo().toString(), HttpStatusCode.valueOf(response.getStatus()));
     }

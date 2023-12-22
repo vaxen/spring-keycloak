@@ -14,8 +14,8 @@ http://localhost:8080/realms/spring-keycloak/.well-known/openid-configuration
 * endpoint to delete users x
 * protect api with admin role x
 * protect api with user role x
-* try keycloak admin library
-* signup endpoint
+* try keycloak admin library x
+* signup endpoint x
 * endpoint to get token
 * test
 * add new fields and read from jwt
